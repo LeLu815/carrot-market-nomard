@@ -1,3 +1,5 @@
+/* reset */
 @tailwind base;
 @tailwind components;
+/* utilities 스타일 */
 @tailwind utilities;
