@@ -32,6 +32,7 @@ export default function SMSLogin() {
             placeholder="Verification code"
             min={100000}
             max={999999}
+            errors={state.error?.formErrors}
             required
           />
         ) : (
@@ -39,7 +40,7 @@ export default function SMSLogin() {
             name="phone"
             type="text"
             placeholder="Phone number"
-            errors={state?.error?.formErrors}
+            errors={state.error?.formErrors}
             required
           />
         )}
